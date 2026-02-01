@@ -3,7 +3,6 @@ import cv2
 import numpy as np
 
 st.set_page_config(page_title="VijaySays AI Sketch Tool", layout="centered")
-st.set_option('server.maxUploadSize', 5)
 
 st.markdown(
     "<h1 style='text-align:center;'>🖌️ Image to Sketch AI</h1>",
@@ -56,3 +55,4 @@ if uploaded_file:
         file_name="vijaysays_sketch.png",
         mime="image/png"
     )
+
